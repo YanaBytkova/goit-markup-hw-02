@@ -1,0 +1,635 @@
+:root {
+  --brand-color1: #ffffff;
+  --brand-color2: #4d5ae5;
+  --brand-color3: #2e2f42;
+  --brand-color4: #434455;
+  --brand-color5: #e7e9fc;
+  --brand-color6: #f4f4fd;
+  --brand-color7: #404bbf;
+}
+
+/* Main Page */
+
+#main-page {
+  position: relative;
+  width: 1440px;
+  height: 2592px;
+  background: var(--brand-color1);
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.top-line-bg {
+  /* Top line bg */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 1440px;
+  height: 72px;
+  left: 0px;
+  top: 0px;
+
+  /* WHITE Header background, team card background */
+  background: var(--brand-color1);
+  /* CORNFLOWER */
+  border-bottom: 1px solid var(--brand-color5);
+}
+
+/* Logo */
+.logo {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  position: absolute;
+  width: 115px;
+  height: 24px;
+  left: 156px;
+  top: 24px;
+}
+
+/* Web */
+
+.web {
+  width: 44px;
+  height: 21px;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* identical to box height, or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  /* IRIS */
+  color: var(--brand-color2);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Studio */
+.studio {
+  width: 71px;
+  height: 21px;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+
+  /* identical to box height, or 117% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--brand-color3);
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+/*Menu Nav  */
+/* Auto layout */
+
+.menu-nav a {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+
+  position: absolute;
+  width: 261px;
+  height: 24px;
+  left: 347px;
+  top: 24px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: var(--brand-color3);
+}
+
+.menu-nav > a.stud {
+  /* Studio */
+
+  width: 48px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.menu-nav > a.port {
+  /* Portfolio */
+
+  width: 66px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.menu-nav > a.cont {
+  /* Contacts */
+
+  width: 67px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.link-contacts .link {
+  position: absolute;
+  width: 151px;
+  height: 24px;
+  top: 24px;
+
+  /* Body */
+
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  color: var(--brand-color4);
+}
+
+.mail-devstudio {
+  left: 940px;
+}
+
+.tel-devstudio {
+  left: 1133px;
+}
+
+.link-contacts .link:hover,
+.link-contacts .link:focus {
+  color: var(--brand-color7);
+}
+
+.efsol-title {
+  /* Effective Solutions for Your Business */
+
+  position: absolute;
+  width: 496px;
+  height: 120px;
+  left: 472px;
+  top: 260px;
+
+  /* Header 1 */
+
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  /* or 107% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  /* WHITE */
+
+  color: var(--brand-color1);
+}
+
+.but1 {
+  /* Button */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+
+  position: absolute;
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+
+  /* IRIS */
+
+  background: var(--brand-color2);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+.but-text {
+  /* Order Service */
+
+  width: 105px;
+  height: 24px;
+
+  /* Button Text */
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  /* WHITE */
+
+  color: var(--brand-color1);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.dark-bg {
+  /* Dark-bg */
+
+  position: absolute;
+  width: 1440px;
+  height: 600px;
+  left: 0px;
+  top: 72px;
+
+  background: var(--brand-color3);
+}
+
+.sect-one {
+  /* Section 1 */
+
+  position: absolute;
+  width: 1128px;
+  height: 104px;
+  left: 156px;
+  top: 792px;
+}
+
+.sect-one > h2 {
+  display: none;
+}
+
+.features > li {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  position: absolute;
+  width: 264px;
+  height: 104px;
+  top: 792px;
+}
+
+.feature-one {
+  /* Feature 1 */
+
+  /* Auto layout */
+
+  left: 156px;
+}
+
+.feature-two {
+  /* Feature 2 */
+
+  left: 444px;
+}
+
+.feature-three {
+  /* Feature 3 */
+
+  left: 732px;
+}
+
+.feature-four {
+  /* Feature 4 */
+
+  left: 1020px;
+}
+
+.feature-title {
+  /* Strategy */
+
+  width: 264px;
+  height: 24px;
+
+  /* Header 3 */
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: var(--brand-color3);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.feature-text {
+  width: 264px;
+  height: 72px;
+
+  /* Body */
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: var(--brand-color4);
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.sect-two {
+  /* Section 2 */
+
+  position: absolute;
+  width: 1128px;
+  height: 412px;
+  left: 156px;
+  top: 1016px;
+}
+
+.sect-two-title {
+  /* What are we doing */
+
+  position: absolute;
+  width: 323px;
+  height: 40px;
+  left: 559px;
+  top: 1016px;
+
+  /* Header 2 */
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: var(--brand-color3);
+}
+
+.sec-two-image-one {
+  /* img 1 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  left: 156px;
+  top: 1128px;
+}
+
+.sec-two-image-two {
+  /* img 2 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  left: 540px;
+  top: 1128px;
+}
+
+.sec-two-image-three {
+  /* img 3 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 360px;
+  height: 300px;
+  left: 924px;
+  top: 1128px;
+}
+
+.sect-three-title {
+  /* Our Team */
+
+  position: absolute;
+  width: 162px;
+  height: 40px;
+  left: 639px;
+  top: 1668px;
+
+  /* Header 2 */
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* identical to box height, or 111% */
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  /* NAVY BLUE */
+
+  color: var(--brand-color3);
+}
+
+.team-card-1 {
+  /* Team Card 1 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 156px;
+  top: 1780px;
+
+  /* WHITE Header background, team card background*/
+  background: var(--brand-color1);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-2 {
+  /* Team Card 2 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 444px;
+  top: 1780px;
+
+  /* WHITE Header background, team card background */
+  background: var(--brand-color1);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-3 {
+  /* Team Card 3 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 732px;
+  top: 1780px;
+
+  /* WHITE Header background, team card background*/
+  background: var(--brand-color1);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-4 {
+  /* Team Card 4 */
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 32px;
+  gap: 32px;
+
+  position: absolute;
+  width: 264px;
+  height: 380px;
+  left: 1020px;
+  top: 1780px;
+
+  /* WHITE Header background, team card background */
+  background: var(--brand-color1);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+.light-bg {
+  /* Light-bg */
+
+  position: absolute;
+  width: 1440px;
+  height: 732px;
+  left: 0px;
+  top: 1548px;
+
+  /* CLOUD */
+
+  background: var(--brand-color6);
+}
+.foot-box {
+  /* Footer */
+
+  position: absolute;
+  width: 1440px;
+  height: 312px;
+  left: 0px;
+  top: 2280px;
+}
+
+.foot-text {
+  /* Text */
+
+  position: absolute;
+  width: 264px;
+  height: 112px;
+  left: 156px;
+  top: 2380px;
+}
