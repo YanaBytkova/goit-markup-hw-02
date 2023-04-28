@@ -15,18 +15,18 @@
   --brand-font-size3: 20px;
   --brand-font-size4: 36px;
   --brand-font-size-title: 56px;
-  --main-font-family: "Roboto";
-  --second-font-family: "Raleway";
+ 
 }
 
 /* Main Page */
-
+body {
+  font-family: "Roboto", sans-serif;
+}
 #main-page {
   position: relative;
   width: 1440px;
   height: 2592px;
   background: var(--brand-color1);
-  font-family: var(--main-font-family), var(--second-font-family), sans-serif;
   font-style: normal;
   font-size: var(--brand-font-size1);
   font-weight: var(--brand-font-weight4);
@@ -34,24 +34,25 @@
   color: var(--brand-color4);
 }
 
-ul {
-  list-style-type: none;
+
+
+.link {
+  text-decoration: none;
 }
 
-a {
-  text-decoration: none;
+.list {
+  list-style: none;
 }
 
 button {
   cursor: pointer;
-  font-family: var(--main-font-family), sans-serif;
+  
 }
 
 .top-line-bg {
   /* Top line bg */
 
   box-sizing: border-box;
-
   position: absolute;
   width: 1440px;
   height: 72px;
@@ -81,22 +82,20 @@ button {
 
 .logo-units {
   font-weight: var(--brand-font-weight1);
-  font-family: var(--second-font-family), sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: var(--brand-font-size2);
-  line-height: 1.166;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   height: 21px;
   flex: none;
   flex-grow: 0;
-}
-
-/* Web */
-.web {
+  /* Web */
   width: 44px;
   color: var(--brand-color2);
   order: 0;
 }
+
 
 /* Studio */
 .studio {
@@ -125,69 +124,69 @@ button {
   height: 24px;
   left: 347px;
   top: 24px;
+  
 }
-.menu-nav-links > a {
+.menu-nav-links {
   font-weight: var(--brand-font-weight2);
-
-  /* identical to box height, or 150% */
-
   letter-spacing: 0.02em;
-
-  /* NAVY BLUE */
-
   color: var(--brand-color3);
   flex: none;
   flex-grow: 0;
+  line-height: 1.5;
 }
 
-.menu-nav-links .stud {
+.menu-stud {
   /* Studio */
 
   width: 48px;
-
-  /* Inside auto layout */
-
   order: 0;
 }
 
-.menu-nav-links .port {
+.menu-port {
   /* Portfolio */
 
   width: 66px;
-
-  /* Inside auto layout */
-
   order: 1;
 }
 
-.menu-nav-links .cont {
+.menu-cont  {
   /* Contacts */
 
   width: 67px;
-
-  /* Inside auto layout */
-
   order: 2;
 }
 
-.link-contacts .link {
+.menu-nav-links:hover,
+.menu-nav-links:focus {
+  color: var(--brand-color7);
+}
+
+
+
+
+.link-contacts a {
   position: absolute;
   width: 151px;
   height: 24px;
   top: 24px;
   letter-spacing: 0.02em;
+  font-style: normal;
+  color: var(--brand-color4);
+  list-style: none;
+  
 }
 
 .mail-devstudio {
   left: 940px;
+  
 }
 
 .tel-devstudio {
   left: 1133px;
 }
 
-.link-contacts .link:hover,
-.link-contacts .link:focus {
+.link-contacts .contacts:hover,
+.link-contacts .contacts:focus {
   color: var(--brand-color7);
 }
 
@@ -215,7 +214,7 @@ button {
 
   font-weight: var(--brand-font-weight3);
   font-size: var(--brand-font-size-title);
-  line-height: 1.071;
+  line-height: 1.07;
   /* or 107% */
 
   text-align: center;
@@ -248,6 +247,8 @@ button {
   display: flex;
   align-items: center;
   letter-spacing: 0.04em;
+  line-height: 1.5;
+  font-family: var(--main-font-family), sans-serif;
 }
 
 .but-order-serv {
@@ -332,7 +333,7 @@ body > .sect-one {
   /* identical to box height, or 120% */
 
   letter-spacing: 0.02em;
-
+  line-height: 1.2;
   color: var(--brand-color3);
 
   /* Inside auto layout */
@@ -375,7 +376,7 @@ body > .sect-two {
   /* Header 2 */
   font-weight: var(--brand-font-weight3);
   font-size: var(--brand-font-size4);
-  line-height: 1.111;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -422,7 +423,7 @@ body > .sect-three-light-bg {
   left: 0px;
   top: 1548px;
 
-  background: var(--brand-color6);
+  background-color: var(--brand-color6);
 }
 
 .sect-three-title {
@@ -591,8 +592,6 @@ body > .sect-three-light-bg {
   position: absolute;
   width: 264px;
   height: 72px;
-  left: 156px;
-  top: 2420px;
   letter-spacing: 0.02em;
   color: var(--brand-color6);
 }
@@ -601,7 +600,7 @@ body > .sect-three-light-bg {
 
 #portfolio {
   /* Body */
-  font-family: var(--main-font-family), var(--second-font-family), sans-serif;
+  font-family: "Roboto" sans-serif;
   font-style: normal;
   font-weight: var(--brand-font-weight4);
   font-size: var(--brand-font-size1);
@@ -628,9 +627,7 @@ body > .sect-three-light-bg {
   top: 168px;
 }
 
-.filt-buttons-title {
-  display: none;
-}
+
 
 .filt-button {
   /* Filter Btn  */
@@ -646,34 +643,12 @@ body > .sect-three-light-bg {
   border-radius: 4px;
   flex: none;
   flex-grow: 0;
+  color: var(--brand-color2);
 }
 
 .but-one {
-  /* Filter Btn Active */
-
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 12px 24px;
   width: 69px;
-  height: 48px;
-  background: var(--brand-color7);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
- 
-}
-
-.filt-but-active {
-  width: 21px;
-  height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: var(--brand-color1);
+  order: 0; 
 }
 
 .but-two {
@@ -698,7 +673,10 @@ body > .sect-three-light-bg {
 
 .filt-button:hover,
 .filt-button:focus {
+  color: var(--brand-color1);
   background: var(--brand-color7);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .rows {

@@ -18,30 +18,38 @@
     <!-- Top line -->
     <header class="top-line-bg">
       <nav>
-        <a href="./index.html" class="logo">
-          <span class="logo-units web">Web</span><span class="logo-units studio">Studio</span></a
+        <a href="./index.html" class="logo logo-units link">
+          Web<span class="studio">Studio</span></a
         >
-        <ul class="menu-nav">
-          <li class="menu-nav-links">
-            <a href="./index.html" class="stud">Studio</a>
-          </li>
-          <li class="menu-nav-links">
-            <a href="./portfolio.html" class="port">Portfolio</a>
-          </li>
-          <li class="menu-nav-links">
-            <a href="" class="cont">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address>
-        <ul class="link-contacts">
+        <menu class="menu-nav list">
           <li>
-            <a href="mailto:info@devstudio.com" class="link mail-devstudio">
+            <a href="./index.html" class="menu-nav-links link menu-stud"
+              >Studio</a
+            >
+          </li>
+          <li>
+            <a href="./portfolio.html" class="menu-nav-links link menu-port"
+              >Portfolio</a
+            >
+          </li>
+          <li>
+            <a href="" class="menu-nav-links link menu-cont">Contacts</a>
+          </li>
+        </menu>
+      </nav>
+
+      <address class="link-contacts">
+        <ul class="list">
+          <li>
+            <a
+              href="mailto:info@devstudio.com"
+              class="link contacts mail-devstudio"
+            >
               info@devstudio.com</a
             >
           </li>
           <li>
-            <a href="tel:+110001111111" class="link tel-devstudio">
+            <a href="tel:+110001111111" class="link contacts tel-devstudio">
               +11 (000) 111-11-11</a
             >
           </li>
@@ -50,20 +58,28 @@
     </header>
     <main>
       <section>
-        <h2 class="Filt-buttons-title">Filters button</h2>
+        <h1 hidden>Filters button</h1>
         <!-- Filters -->
-        <ul class="filters">
+        <ul class="filters list">
           <li>
-            <button type="button" class="but-one button-text filt-but-active">All</button>
+            <button type="button" class="filt-button but-one button-text">
+              All
+            </button>
           </li>
           <li>
-            <button type="button" class="filt-button but-two button-text">Web Site</button>
+            <button type="button" class="filt-button but-two button-text">
+              Web Site
+            </button>
           </li>
           <li>
-            <button type="button" class="filt-button but-three button-text">App</button>
+            <button type="button" class="filt-button but-three button-text">
+              App
+            </button>
           </li>
           <li>
-            <button type="button" class="filt-button but-four button-text">Design</button>
+            <button type="button" class="filt-button but-four button-text">
+              Design
+            </button>
           </li>
           <li>
             <button type="button" class="filt-button but-five button-text">
@@ -71,142 +87,162 @@
             </button>
           </li>
         </ul>
-      </section>
 
-      <!-- Row 1 -->
-      <section class="rows row-one">
-        <ul class="pr-cards">
-          <li class="card-one">
-            <img
-              src="./images/project-card1.jpg"
-              alt="Bank app's windows"
-              width="360"
-              class="cards-images im-one"
-            />
-            <div class="cards-content">
-              <h3 class="header-three bankin-app">
-                Banking App Interface Concept
-              </h3>
-              <p class="app-portfolio app">App</p>
-            </div>
+        <ul class="list">
+          <li class="rows row-one">
+            <!-- Row 1 -->
+            <ul class="pr-cards list">
+              <li class="card-one">
+                <a class="link">
+                  <img
+                    src="./images/project-card1.jpg"
+                    alt="Bank app's windows"
+                    width="360"
+                    class="cards-images im-one"
+                  />
+                  <div class="cards-content">
+                    <h2 class="header-three bankin-app">
+                      Banking App Interface Concept
+                    </h2>
+                    <p class="app-portfolio app">App</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-two">
+                <a class="link">
+                  <img
+                    src="./images/project-card2.jpg"
+                    alt="Smartphone's screeen with QR-code"
+                    width="360"
+                    class="cards-images im-two"
+                  />
+                  <div class="cards-content">
+                    <h2 class="header-three cashless">Cashless Payment</h2>
+                    <p class="app-portfolio marketing">Marketing</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-three">
+                <a>
+                  <img
+                    src="./images/project-card3.jpg"
+                    alt="Image of laptop and smartphone displays"
+                    width="360"
+                    class="cards-images im-three"
+                  />
+                  <div class="cards-content">
+                    <h2 class="header-three med-app">Meditation App</h2>
+                    <p class="app-portfolio app">App</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
           </li>
-          <li class="card-two">
-            <img
-              src="./images/project-card2.jpg"
-              alt="Smartphone's screeen with QR-code"
-              width="360"
-              class="cards-images im-two"
-            />
-            <div class="cards-content">
-              <h3 class="header-three cashless">Cashless Payment</h3>
-              <p class="app-portfolio marketing">Marketing</p>
-            </div>
+          <li class="rows row-two">
+            <!-- Row 2 -->
+            <ul class="pr-cards list">
+              <li class="card-one">
+                <a class="link">
+                  <img
+                    src="./images/project-card4.jpg"
+                    alt="Hand on the steering wheel"
+                    width="360"
+                    class="cards-images im-four"
+                  />
+                  <div class="cards-content">
+                    <h2 class="header-three taxi">Taxi Service</h2>
+                    <p class="app-portfolio marketing">Marketing</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-two">
+                <a class="link">
+                  <img
+                    src="./images/project-card5.jpg"
+                    alt="Wallpapers on the smartphone screen"
+                    width="360"
+                    class="cards-images im-five"
+                  />
+                  <div class="cards-content">
+                    <h2 class="header-three screen">Screen Illustrations</h2>
+                    <p class="app-portfolio desing">Design</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-three">
+                <a class="link">
+                  <img
+                    src="./images/project-card6.jpg"
+                    alt="Women with headphones"
+                    width="360"
+                    class="cards-images im-six"
+                  />
+                  <div class="cards-content">
+                    <h2 class="header-three online">Online Courses</h2>
+                    <p class="app-portfolio marketing">Marketing</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
           </li>
-          <li class="card-three">
-            <img
-              src="./images/project-card3.jpg"
-              alt="Image of laptop and smartphone displays"
-              width="360"
-              class="cards-images im-three"
-            />
-            <div class="cards-content">
-              <h3 class="header-three med-app">Meditation App</h3>
-              <p class="app-portfolio app">App</p>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      <!-- Row 2 -->
-      <section class="rows row-two">
-        <ul class="pr-cards">
-          <li class="card-one">
-            <img
-              src="./images/project-card4.jpg"
-              alt="Hand on the steering wheel"
-              width="360"
-              class="cards-images im-four"
-            />
-            <div class="cards-content">
-              <h3 class="header-three taxi">Taxi Service</h3>
-              <p class="app-portfolio marketing">Marketing</p>
-            </div>
-          </li>
-          <li class="card-two">
-            <img
-              src="./images/project-card5.jpg"
-              alt="Wallpapers on the smartphone screen"
-              width="360"
-              class="cards-images im-five"
-            />
-            <div class="cards-content">
-              <h3 class="header-three screen">Screen Illustrations</h3>
-              <p class="app-portfolio desing">Design</p>
-            </div>
-          </li>
-          <li class="card-three">
-            <img
-              src="./images/project-card6.jpg"
-              alt="Women with headphones"
-              width="360"
-              class="cards-images im-six"
-            />
-            <div class="cards-content">
-              <h3 class="header-three online">Online Courses</h3>
-              <p class="app-portfolio marketing">Marketing</p>
-            </div>
-          </li>
-        </ul>
-      </section>
-
-      <!-- Row 3 -->
-      <section class="rows row-three">
-        <ul class="pr-cards">
-          <li class="card-one">
-            <img
-              src="./images/project-card7.jpg"
-              alt="Examples of developed stories"
-              width="360"
-              class="cards-images im-seven"
-            />
-            <div class="cards-content">
-              <h3 class="header-three insta">Instagram Stories Concept</h3>
-              <p class="app-portfolio desing">Design</p>
-            </div>
-          </li>
-          <li class="card-two">
-            <img
-              src="./images/project-card8.jpg"
-              alt="The women in light clothes with a bag"
-              width="360"
-              class="cards-images im-eight"
-            />
-            <div class="cards-content">
-              <h3 class="header-three food">Organic Food</h3>
-              <p class="app-portfolio web-site">Web Site</p>
-            </div>
-          </li>
-          <li class="card-three">
-            <img
-              src="./images/project-card9.jpg"
-              alt="Pouring cream into a cup of coffee"
-              width="360"
-              class="cards-images im-nine"
-            />
-            <div class="cards-content">
-              <h3 class="header-three coffee">Fresh Coffee</h3>
-              <p class="app-portfolio web-site">Web Site</p>
-            </div>
+          <li class="rows row-three">
+            <ul class="pr-cards list">
+              <!-- Row 3 -->
+              <li class="card-one">
+                <a class="link">
+                  <img
+                    src="./images/project-card7.jpg"
+                    alt="Examples of developed stories"
+                    width="360"
+                    class="cards-images im-seven"
+                  />
+                  <div class="cards-content">
+                    <h2 class="header-three insta">
+                      Instagram Stories Concept
+                    </h2>
+                    <p class="app-portfolio desing">Design</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-two">
+                <a class="link">
+                  <img
+                    src="./images/project-card8.jpg"
+                    alt="The women in light clothes with a bag"
+                    width="360"
+                    class="cards-images im-eight"
+                  />
+                  <div class="cards-content">
+                    <h2 class="header-three food">Organic Food</h2>
+                    <p class="app-portfolio web-site">Web Site</p>
+                  </div>
+                </a>
+              </li>
+              <li class="card-three">
+                <a class="link">
+                  <img
+                    src="./images/project-card9.jpg"
+                    alt="Pouring cream into a cup of coffee"
+                    width="360"
+                    class="cards-images im-nine"
+                  />
+                  <div class="cards-content">
+                    <h2 class="header-three coffee">Fresh Coffee</h2>
+                    <p class="app-portfolio web-site">Web Site</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
       </section>
     </main>
 
     <!-- Footer -->
-    <footer class="foot-box dark-bg">
-      <a href="./index.html" class="logo">
-        <span class="logo-units web">Web</span><span class="logo-units foot-studio">Studio</span></a
-        >
+    <footer class="foot-box">
+      <a href="./index.html" class="logo logo-units link">
+        Web<span class="foot-studio">Studio</span></a
+      >
       <p class="foot-text">
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
