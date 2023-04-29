@@ -396,7 +396,7 @@ body > .sect-two {
   top: 1668px;
 }
 
-.team-card li {
+.list-cards {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -413,30 +413,6 @@ body > .sect-two {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-}
-
-.card-one {
-  /* Team Card 1 */
-
-  left: 156px;
-}
-
-.card-two {
-  /* Team Card 2 */
-
-  left: 444px;
-}
-
-.card-three {
-  /* Team Card 3 */
-
-  left: 732px;
-}
-
-.card-four {
-  /* Team Card 4 */
-
-  left: 1020px;
 }
 
 .img-team-card {
