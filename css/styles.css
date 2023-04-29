@@ -142,8 +142,11 @@ button {
   height: 24px;
   top: 24px;
   letter-spacing: 0.02em;
-  font-style: normal;
   color: var(--brand-color4);
+}
+
+.link-contacts:hover {
+  color: var(--brand-color7);
 }
 
 .link-contacts:hover,
@@ -196,7 +199,7 @@ button {
   height: 56px;
   left: 636px;
   top: 428px;
-  background: var(--brand-color2);
+  background-color: var(--brand-color2);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -536,24 +539,10 @@ body > .sect-two {
   width: 1128px;
   height: 420px;
   left: 156px;
-}
-
-/* Row 1 */
-.row-one {
   top: 288px;
 }
 
-/* Row 2 */
-.row-two {
-  top: 756px;
-}
-
-/* Row 3 */
-.row-three {
-  top: 1224px;
-}
-
-.pr-cards li {
+.pr-cards {
   box-sizing: border-box;
   position: absolute;
   width: 360px;
