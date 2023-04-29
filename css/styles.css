@@ -15,7 +15,6 @@
   --brand-font-size3: 20px;
   --brand-font-size4: 36px;
   --brand-font-size-title: 56px;
- 
 }
 
 /* Main Page */
@@ -34,8 +33,6 @@ body {
   color: var(--brand-color4);
 }
 
-
-
 .link {
   text-decoration: none;
 }
@@ -46,7 +43,6 @@ body {
 
 button {
   cursor: pointer;
-  
 }
 
 .top-line-bg {
@@ -67,7 +63,6 @@ button {
 
 /* Logo */
 .logo {
-  
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -77,7 +72,6 @@ button {
   height: 24px;
   left: 156px;
   top: 24px;
-  
 }
 
 .logo-units {
@@ -96,7 +90,6 @@ button {
   order: 0;
 }
 
-
 /* Studio */
 .studio {
   width: 71px;
@@ -113,7 +106,6 @@ button {
 
 /*Menu Nav  */
 .menu-nav {
-
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -124,7 +116,6 @@ button {
   height: 24px;
   left: 347px;
   top: 24px;
-  
 }
 .menu-nav-links {
   font-weight: var(--brand-font-weight2);
@@ -135,36 +126,13 @@ button {
   line-height: 1.5;
 }
 
-.menu-stud {
-  /* Studio */
-
-  width: 48px;
-  order: 0;
-}
-
-.menu-port {
-  /* Portfolio */
-
-  width: 66px;
-  order: 1;
-}
-
-.menu-cont  {
-  /* Contacts */
-
-  width: 67px;
-  order: 2;
-}
-
 .menu-nav-links:hover,
 .menu-nav-links:focus {
   color: var(--brand-color7);
 }
 
-
-
-
 .link-contacts a {
+  list-style: none;
   position: absolute;
   width: 151px;
   height: 24px;
@@ -172,21 +140,10 @@ button {
   letter-spacing: 0.02em;
   font-style: normal;
   color: var(--brand-color4);
-  list-style: none;
-  
 }
 
-.mail-devstudio {
-  left: 940px;
-  
-}
-
-.tel-devstudio {
-  left: 1133px;
-}
-
-.link-contacts .contacts:hover,
-.link-contacts .contacts:focus {
+.link-contacts:hover,
+.link-contacts:focus {
   color: var(--brand-color7);
 }
 
@@ -414,7 +371,7 @@ body > .sect-two {
 }
 
 /* Section 3 */
-body > .sect-three-light-bg {
+.sect-three-light-bg {
   /* Light-bg */
 
   position: absolute;
@@ -422,7 +379,6 @@ body > .sect-three-light-bg {
   height: 732px;
   left: 0px;
   top: 1548px;
-
   background-color: var(--brand-color6);
 }
 
@@ -555,6 +511,9 @@ body > .sect-three-light-bg {
   flex: none;
   order: 1;
   flex-grow: 0;
+  font-size: var(--brand-font-size1);
+  line-height: 1.5;
+  color: var(--brand-color4);
 }
 
 .p-mark {
@@ -627,8 +586,6 @@ body > .sect-three-light-bg {
   top: 168px;
 }
 
-
-
 .filt-button {
   /* Filter Btn  */
 
@@ -646,37 +603,13 @@ body > .sect-three-light-bg {
   color: var(--brand-color2);
 }
 
-.but-one {
-  width: 69px;
-  order: 0; 
-}
-
-.but-two {
-  width: 116px;
-  order: 1;
-}
-
-.but-three {
-  width: 78px;
-  order: 2;
-}
-
-.but-four {
-  width: 101px;
-  order: 3;
-}
-
-.but-five {
-  width: 126px;
-  order: 4;
-}
-
 .filt-button:hover,
 .filt-button:focus {
   color: var(--brand-color1);
   background: var(--brand-color7);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .rows {
