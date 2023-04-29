@@ -131,8 +131,12 @@ button {
   color: var(--brand-color7);
 }
 
-.link-contacts a {
-  list-style: none;
+.adress-contacts {
+  font-style: normal;
+}
+
+.link-contacts {
+  font-style: normal;
   position: absolute;
   width: 151px;
   height: 24px;
@@ -460,49 +464,7 @@ body > .sect-two {
 .img-tc-four {
   background: url(confident-handsome-guy-posing-against-white-wall);
 }
-.team-card-content {
-  /* Card Content */
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 0px;
-  gap: 8px;
-
-  width: 232px;
-  height: 56px;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-}
-
-.mark-g {
-  /* Mark Guerrero */
-
-  width: 134px;
-  text-align: center;
-}
-.tom-f {
-  /* Tom Ford */
-  width: 88px;
-  text-align: center;
-}
-.cami-g {
-  /* Camila Garcia */
-
-  width: 130px;
-  text-align: center;
-}
-.dani-w {
-  /* Daniel Wilson */
-
-  width: 127px;
-  text-align: center;
-}
 .profession,
 .app-portfolio {
   height: 24px;
@@ -514,25 +476,6 @@ body > .sect-two {
   font-size: var(--brand-font-size1);
   line-height: 1.5;
   color: var(--brand-color4);
-}
-
-.p-mark {
-  /* Product Designer */
-  width: 128px;
-}
-
-.p-tom {
-  /* Frontend Developer */
-  width: 144px;
-}
-.p-cami {
-  /* Marketing */
-  width: 75px;
-}
-
-.p-dani {
-  /* UI Designer */
-  width: 85px;
 }
 
 .foot-box {
