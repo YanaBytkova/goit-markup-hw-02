@@ -190,7 +190,7 @@ button {
 }
 
 /* Button */
-.main-but {
+button.main-but {
   background-color: #4d5ae5;
   flex-direction: row;
   align-items: flex-start;
