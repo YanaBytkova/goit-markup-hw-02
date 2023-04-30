@@ -145,6 +145,10 @@ button {
   color: var(--brand-color4);
 }
 
+.link .link-contacts:hover {
+  color: #404bbf;
+}
+
 .link-contacts:hover,
 .link-contacts:focus {
   color: #404bbf;
