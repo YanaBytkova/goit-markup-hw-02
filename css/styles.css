@@ -145,10 +145,6 @@ button {
   color: var(--brand-color4);
 }
 
-.link-contacts:hover {
-  color: var(--brand-color7);
-}
-
 .link-contacts:hover,
 .link-contacts:focus {
   color: var(--brand-color7);
@@ -186,9 +182,9 @@ button {
   color: var(--brand-color1);
 }
 
+/* Button */
 .main-but {
-  /* Button */
-
+  background-color: var(--brand-color2);
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -199,7 +195,7 @@ button {
   height: 56px;
   left: 636px;
   top: 428px;
-  background-color: var(--brand-color2);
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
