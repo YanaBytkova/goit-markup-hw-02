@@ -220,7 +220,7 @@ button {
 
 .but-order-serv {
   /* Order Service */
-  background-color: var(--brand-color2);
+  background-color: #4d5ae5;
   width: 105px;
   height: 24px;
   color: var(--brand-color1);
