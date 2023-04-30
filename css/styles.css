@@ -145,13 +145,9 @@ button {
   color: var(--brand-color4);
 }
 
-.link-contacts:hover,
-.link-contacts:focus {
+.list .link-contacts:hover,
+.list .link-contacts:focus {
   color: var(--brand-color7);
-}
-
-.link-contacts:hover {
-  color: #404bbf;
 }
 
 /* Hero Image  */
@@ -204,7 +200,6 @@ button {
 }
 
 .button-text {
-  background-color: var(--brand-color2);
   font-style: normal;
   font-weight: var(--brand-font-weight2);
   font-size: var(--brand-font-size1);
@@ -217,7 +212,6 @@ button {
 
 .but-order-serv {
   /* Order Service */
-  background-color: var(--brand-color2);
   width: 105px;
   height: 24px;
   color: var(--brand-color1);
