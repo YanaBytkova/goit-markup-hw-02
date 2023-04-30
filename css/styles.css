@@ -141,7 +141,7 @@ button {
   height: 24px;
   top: 24px;
   letter-spacing: 0.02em;
-  color: var(--brand-color3);
+  color: var(--brand-color4);
 }
 
 .mail-devstudio {
@@ -207,6 +207,7 @@ button {
 }
 
 .button-text {
+  background-color: var(--brand-color2);
   font-style: normal;
   font-weight: var(--brand-font-weight2);
   font-size: var(--brand-font-size1);
@@ -219,7 +220,7 @@ button {
 
 .but-order-serv {
   /* Order Service */
-  background-color: #4d5ae5;
+
   width: 105px;
   height: 24px;
   color: var(--brand-color1);
