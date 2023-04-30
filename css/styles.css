@@ -144,11 +144,11 @@ button {
   color: var(--brand-color4);
 }
 
-.mail-devstudio {
+.mail-devstudio a {
   left: 940px;
 }
 
-.tel-devstudio {
+.tel-devstudio a {
   left: 1133px;
 }
 
