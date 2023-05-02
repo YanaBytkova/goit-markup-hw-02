@@ -23,8 +23,6 @@ body {
 }
 #main-page {
   position: relative;
-  width: 1440px;
-  height: 2592px;
   background: var(--brand-color1);
   font-style: normal;
   font-size: var(--brand-font-size1);
@@ -49,11 +47,7 @@ button {
   /* Top line bg */
 
   box-sizing: border-box;
-  position: absolute;
-  width: 1440px;
-  height: 72px;
-  left: 0px;
-  top: 0px;
+  
 
   /* WHITE Header background, team card background */
   background: var(--brand-color1);
@@ -67,11 +61,7 @@ button {
   flex-direction: row;
   align-items: center;
   padding: 0px;
-  position: absolute;
-  width: 115px;
-  height: 24px;
-  left: 156px;
-  top: 24px;
+  
 }
 
 .logo-units {
@@ -81,25 +71,23 @@ button {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  height: 21px;
   flex: none;
   flex-grow: 0;
   /* Web */
-  width: 44px;
   color: var(--brand-color2);
   order: 0;
 }
 
 /* Studio */
 .studio {
-  width: 71px;
+  
   color: var(--brand-color3);
   order: 1;
 }
 
 /* Studio in footer*/
 .foot-studio {
-  width: 71px;
+  
   color: var(--brand-color6);
   order: 1;
 }
@@ -111,11 +99,7 @@ button {
   align-items: flex-start;
   padding: 0px;
   gap: 40px;
-  position: absolute;
-  width: 261px;
-  height: 24px;
-  left: 347px;
-  top: 24px;
+
 }
 .menu-nav-links {
   font-weight: var(--brand-font-weight2);
@@ -136,21 +120,11 @@ button {
 }
 
 .link-contacts .link {
-  position: absolute;
-  width: 151px;
-  height: 24px;
-  top: 24px;
+  
   letter-spacing: 0.02em;
   color: var(--brand-color4);
 }
 
-.mail-devstudio a {
-  left: 940px;
-}
-
-.tel-devstudio a {
-  left: 1133px;
-}
 
 .link-contacts .link:hover,
 .link-contacts .link:focus {
@@ -161,22 +135,10 @@ button {
 .dark-bg {
   /* Dark-bg */
 
-  position: absolute;
-  width: 1440px;
-  height: 600px;
-  left: 0px;
-  top: 72px;
   background: var(--brand-color3);
 }
 .efsol-title {
   /* Effective Solutions for Your Business */
-
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
-
   /* Header 1 */
 
   font-weight: var(--brand-font-weight3);
@@ -202,8 +164,6 @@ button {
   letter-spacing: 0.04em;
   line-height: 1.5;
   font-family: var(--main-font-family);
-  width: 105px;
-  height: 24px;
   color: var(--brand-color1);
   border: 1px solid #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -215,8 +175,7 @@ button {
   letter-spacing: 0.04em;
   line-height: 1.5;
   font-family: var(--main-font-family), sans-serif;
-  width: 105px;
-  height: 24px;
+
   color: var(--brand-color1);
   border: 1px solid #000000;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -227,15 +186,6 @@ button {
   background: var(--brand-color7);
 }
 
-body > .sect-one {
-  /* Section 1 */
-
-  position: absolute;
-  width: 1128px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
-}
 
 .features-main-title {
   display: none;
@@ -247,37 +197,9 @@ body > .sect-one {
   align-items: flex-start;
   padding: 0px;
   gap: 8px;
-  position: absolute;
-  width: 264px;
-  height: 104px;
-  top: 792px;
+  
 }
 
-.feature-one {
-  /* Feature 1 */
-  left: 156px;
-}
-
-.feature-two {
-  /* Feature 2 */
-  left: 444px;
-}
-
-.feature-three {
-  /* Feature 3 */
-  left: 732px;
-}
-
-.feature-four {
-  /* Feature 4 */
-  left: 1020px;
-}
-
-.feature-title {
-  /* Strategy */
-
-  width: 264px;
-}
 
 .header-three {
   /* Header 3 */
@@ -298,33 +220,13 @@ body > .sect-one {
 }
 
 .feature-text {
-  width: 264px;
-  height: 72px;
+  
   letter-spacing: 0.02em;
   flex: none;
   order: 1;
   flex-grow: 0;
 }
 
-body > .sect-two {
-  /* Section 2 */
-
-  position: absolute;
-  width: 1128px;
-  height: 412px;
-  left: 156px;
-  top: 1016px;
-}
-
-.sect-two-title {
-  /* What are we doing */
-
-  position: absolute;
-  width: 323px;
-  height: 40px;
-  left: 559px;
-  top: 1016px;
-}
 
 .header-two {
   /* Header 2 */
@@ -343,51 +245,15 @@ body > .sect-two {
   align-items: flex-start;
   padding: 0px;
 
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  top: 1128px;
 }
 
-.image-one {
-  /* img 1 */
-
-  left: 156px;
-}
-
-.image-two {
-  /* img 2 */
-
-  left: 540px;
-}
-
-.image-three {
-  /* img 3 */
-
-  left: 924px;
-}
 
 /* Section 3 */
 .sect-three-light-bg {
   /* Light-bg */
-
-  position: absolute;
-  width: 1440px;
-  height: 732px;
-  left: 0px;
-  top: 1548px;
   background-color: var(--brand-color6);
 }
 
-.sect-three-title {
-  /* Our Team */
-
-  position: absolute;
-  width: 162px;
-  height: 40px;
-  left: 639px;
-  top: 1668px;
-}
 
 .list-cards {
   display: flex;
@@ -397,9 +263,6 @@ body > .sect-two {
   padding: 0px 0px 32px;
   gap: 32px;
 
-  position: absolute;
-  height: 380px;
-  top: 1780px;
 
   /* WHITE Header background, team card background*/
   background: var(--brand-color1);
@@ -408,9 +271,7 @@ body > .sect-two {
   border-radius: 0px 0px 4px 4px;
 }
 
-.img-team-card {
-  width: 264px;
-  height: 260px;
+.image-team-card {
 
   mix-blend-mode: normal;
 
@@ -450,19 +311,12 @@ body > .sect-two {
 .foot-box {
   /* Footer */
 
-  position: absolute;
-  width: 1440px;
-  height: 312px;
-  left: 0px;
-  top: 2280px;
   background: var(--brand-color3);
 }
 
 .foot-text {
   /* Text */
-  position: absolute;
-  width: 264px;
-  height: 72px;
+
   letter-spacing: 0.02em;
   color: var(--brand-color6);
 }
@@ -491,11 +345,6 @@ body > .sect-two {
   padding: 0px;
   gap: 24px;
 
-  position: absolute;
-  width: 586px;
-  height: 48px;
-  left: 427px;
-  top: 168px;
 }
 
 .filt-button {
@@ -524,45 +373,14 @@ body > .sect-two {
   border-radius: 4px;
 }
 
-.rows {
-  position: absolute;
-  width: 1128px;
-  height: 420px;
-  left: 156px;
-  top: 288px;
-}
 
 .pr-cards {
   box-sizing: border-box;
-  position: absolute;
-  width: 360px;
-  height: 420px;
-  top: 288px;
   background: var(--brand-color1);
   border: 1px solid var(--brand-color5);
 }
 
-/* Project Card 1 */
-.card-one {
-  left: 156px;
-}
-
-/* Project Card 2 */
-.card-two {
-  left: 540px;
-}
-
-/* Project Card 3 */
-.card-three {
-  left: 924px;
-}
-
 .cards-images {
-  position: absolute;
-  width: 360px;
-  height: 300px;
-  left: 0px;
-  top: 0px;
   mix-blend-mode: normal;
 }
 
@@ -611,84 +429,5 @@ body > .sect-two {
   padding: 0px 16px;
   gap: 8px;
 
-  position: absolute;
-  width: 360px;
-  height: 56px;
-  left: 0px;
-  top: 332px;
 }
 
-.bankin-app {
-  /* Banking App Interface Concept */
-
-  width: 290px;
-}
-.cashless {
-  /* Cashless Payment */
-
-  width: 172px;
-}
-
-.med-app {
-  /* Meditaion App */
-
-  width: 143px;
-}
-
-.app {
-  width: 30px;
-}
-
-.marketing {
-  /* Marketing */
-
-  width: 75px;
-}
-
-.taxi {
-  /* Taxi Service */
-
-  width: 113px;
-}
-
-.screen {
-  /* Screen Illustrations */
-
-  width: 181px;
-}
-
-.design {
-  /* Design */
-
-  width: 51px;
-}
-
-.online {
-  /* Online Courses */
-
-  width: 142px;
-}
-
-.insta {
-  /* Instagram Stories Concept */
-
-  width: 249px;
-}
-
-.food {
-  /* Organic Food */
-
-  width: 124px;
-}
-
-.coffee {
-  /* Fresh Coffee */
-
-  width: 119px;
-}
-
-.web-site {
-  /* Web Site */
-
-  width: 65px;
-}
